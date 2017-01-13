@@ -1,10 +1,14 @@
 ## Feed Reader Testing
 
-[![screenshot.png](https://s27.postimg.org/56unujo6r/screenshot.png)](https://postimg.org/image/56unujo6n/)
-
 #### Intro
 
 This is a project for Udacity Front-End Developer Nanodegree. Given a web-based application that reads RSS feeds, the test suite is completed with [Jasmine](http://jasmine.github.io/).
+
+####
+To run:
+
+1. Download or fork the application from: https://github.com/nishitmeswani/feed-reader-testing
+2.Select index.html to start the app
 
 #### Tools used
 * **Jasmine**

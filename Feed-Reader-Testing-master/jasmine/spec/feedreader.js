@@ -103,12 +103,14 @@ $(function() {
 
         beforeEach(function(done) {
             // save original content
+            loadFeed(0, function() {
             feedContent = $('.feed').children().text();
             // call loadFeed again and save new content
             loadFeed(1, function() {
               newFeedContent = $('.feed').children().text();
               done();
             });
+        });
         });
         /* A test that ensures when a new feed is loaded
          * by the loadFeed function that the content actually changes.
